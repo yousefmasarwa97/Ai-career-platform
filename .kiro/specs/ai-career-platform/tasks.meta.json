@@ -1,0 +1,293 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and core scaffolding": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630799019
+      },
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630813881
+      },
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789631416154
+      }
+    ],
+    "2.1 Define the User, CandidateProfile, and MentorProfile models with migrations": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630799695
+      },
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789631425642
+      }
+    ],
+    "2.2 Define CvVersion, Job, and Application models with migrations": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630799886
+      }
+    ],
+    "2.3 Define AiReview, AiOutput, Feedback, and AccessLog models with migrations": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800047
+      }
+    ],
+    "3.1 Implement registration with role assignment and password hashing": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800161
+      }
+    ],
+    "3.2 Implement login, session/JWT issuance, and refresh": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800313
+      }
+    ],
+    "3.3 Add authentication guard that denies all protected resources when unauthenticated": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800462
+      }
+    ],
+    "4.1 Implement role resolution and the permission matrix middleware": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800611
+      }
+    ],
+    "4.2 Implement ownership checks in the service layer": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800747
+      }
+    ],
+    "4.3 Write authorization tests for each role across protected endpoints": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630800929
+      }
+    ],
+    "5.1 Implement profile CRUD scoped to the authenticated candidate": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801029
+      }
+    ],
+    "5.2 Enforce that candidates cannot view/edit other candidates' profiles": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801182
+      }
+    ],
+    "6.1 Implement CV upload with format validation and encrypted object storage": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801315
+      }
+    ],
+    "6.2 Enforce the 5-version limit transactionally": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801443
+      }
+    ],
+    "6.3 Implement list and delete for CV versions with ownership scoping": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801600
+      }
+    ],
+    "7.1 Implement job creation for Career Mentor and Admin": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801710
+      }
+    ],
+    "7.2 Implement job listing (published for candidates, all for admin) and mentor management of own jobs": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630801878
+      }
+    ],
+    "8.1 Implement application creation with duplicate prevention": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802012
+      }
+    ],
+    "8.2 Implement candidate application status listing": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802162
+      }
+    ],
+    "9. Implement Career Mentor profile": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802277
+      }
+    ],
+    "10.1 Implement the AiProvider abstraction with an external-use policy flag": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802425
+      }
+    ],
+    "10.2 Implement the Orchestrator with agent selection, output merging, and provenance": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802589
+      }
+    ],
+    "10.3 Implement conflict-handling strategy in the Orchestrator": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802744
+      }
+    ],
+    "11.1 Implement Profile Agent and CV Analysis Agent": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802884
+      }
+    ],
+    "11.2 Implement Job Matching Agent and Recommendation Agent": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630802995
+      }
+    ],
+    "11.3 Implement Career Coach Agent and Interview Agent": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803129
+      }
+    ],
+    "11.4 Unit-test each agent with a mocked AiProvider": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803262
+      }
+    ],
+    "12.1 Implement Admin-only review endpoint routing through the Orchestrator": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803410
+      }
+    ],
+    "12.2 Persist reviews labeled AI-generated and distinct from admin decisions": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803533
+      }
+    ],
+    "13. Implement the candidate dashboard": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803632
+      }
+    ],
+    "14. Implement AI feedback capture": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803798
+      }
+    ],
+    "15.1 Enforce encryption in transit and access logging on sensitive candidate reads": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630803931
+      }
+    ],
+    "15.2 Implement data retention/deletion, including candidate self-deletion, and privacy notices": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804059
+      }
+    ],
+    "16.1 Build auth screens and role-aware navigation": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804179
+      }
+    ],
+    "16.2 Build candidate UI (profile, CV versions, job discovery, apply, dashboard)": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804282
+      }
+    ],
+    "16.3 Build mentor UI (profile, job upload/management)": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804420
+      }
+    ],
+    "16.4 Build admin UI (candidate/CV browsing, job management, AI CV review)": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804517
+      }
+    ],
+    "16.5 Add i18n scaffolding and accessibility best practices": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804689
+      }
+    ],
+    "17. Integration and end-to-end tests": [
+      {
+        "executionId": "62cc1e84-7a6e-440f-9940-04a1660a06ad",
+        "chatSessionId": "sess_7ad8e29d-01e6-45f0-8727-b355f3d7149e",
+        "timestamp": 1789630804790
+      }
+    ]
+  }
+}
