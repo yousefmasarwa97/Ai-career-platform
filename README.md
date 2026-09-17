@@ -32,7 +32,8 @@ Rates and ranks jobs for the logged-in candidate (`src/ai/agents/jobMatchScoreAg
 
 **In the app** — the candidate's job list, ranked by match, each card showing its ★ rating out of 10:
 
-![Job Matching Agent — candidate job list ranked by match rating](docs/screenshots/job-matching-agent.png)
+![Job Matching Agent — candidate job list ranked by match rating](<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/73ed11f1-863e-40aa-bfe0-cb9060d881b2" />
+)
 
 ### 3. Candidate Matching Agent (admin side)
 
